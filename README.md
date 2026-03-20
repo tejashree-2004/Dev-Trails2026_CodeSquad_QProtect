@@ -32,7 +32,7 @@ The 10-minute SLA model means income loss per disrupted hour is significantly hi
 
 ## Persona Scenario
 
-Arjun is a Zepto delivery partner in Velachery, Chennai.
+Arjun Kumar is a Zepto delivery partner in Velachery, Chennai.
 
 - By 1pm: 18 deliveries → ₹540 earned  
 - Weekly baseline: ₹1,200  
