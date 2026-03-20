@@ -168,28 +168,15 @@ remaining_capacity = weekly_target - earnings_so_far
 
 ## The 5-Stage Algorithm
 
-### Stage 1: Disruption Detection
-- External + impact signals validated
+## 5-Stage Algorithm
 
-### Stage 2: Eligibility Check
-- Active policy
-- Activity validation
-- Zone match
-- Minimum duration
-
-### Stage 3: AI Calculation
-- Impact score
-- Income loss
-- Fraud score
-
-### Stage 4: Fraud Detection (CBE)
-- Zone-wide validation
-- GPS + delivery + reports
-
-### Stage 5: Payout
-- UPI transfer
-- Notification sent
-- Dashboard updated
+| Stage | Name                     | Description |
+|------|--------------------------|------------|
+| 1 | Disruption Detection | External APIs (weather, AQI, platform, civic) are monitored. If at least one external signal is triggered, impact signals (GPS halt, delivery slowdown, reports) are validated. |
+| 2 | Eligibility Check | Verifies active policy, recent activity, zone match, rolling baseline, and minimum disruption duration. Only eligible workers proceed. |
+| 3 | AI Score Calculation | Runs all three models: Impact Model (severity score), Income Model (expected loss), and Fraud Model (risk score). |
+| 4 | Fraud Validation (CBE) | Collective Behavior Engine validates zone-wide signals like GPS halt ratio, delivery deviation, and crowd reports to prevent fraud. |
+| 5 | Payout Release | Approved payouts are credited via UPI, notifications are sent, and dashboards are updated with full audit logs. |
 
 
 ## UI Preview
@@ -243,14 +230,22 @@ Admin:
 - Fraud flags
 - Analytics
 
-## Tech Stack - Tentative 
+  ## Tech Stack Tentative 
 
-- React Native  
-- Flask  
-- PostgreSQL  
-- scikit-learn  
-- Firebase  
-- Razorpay  
+| Layer | Technology | Purpose |
+|------|------------|--------|
+| Mobile App | React Native | Cross-platform mobile application (iOS & Android) |
+| Backend | Flask (Python) | API handling and business logic |
+| Database | PostgreSQL | Structured data storage |
+| AI - Impact Model | Gradient Boosting (scikit-learn) | Calculates disruption severity |
+| AI - Income Model | Random Forest (scikit-learn) | Predicts expected income loss |
+| AI - Fraud Model | Isolation Forest (scikit-learn) | Detects anomalous behavior |
+| External APIs | OpenWeatherMap, CPCB AQI | Real-time disruption signals |
+| Platform API | Mock REST API | Dark store dispatch status |
+| Notifications | Firebase Cloud Messaging | Push notifications |
+| Payments | Razorpay (UPI) | Automated payout processing |
+| Admin Dashboard | React + Tailwind CSS | Monitoring and analytics |
+| Hosting | Render / Railway | Deployment and hosting |
 
 ## Development Plan
 
