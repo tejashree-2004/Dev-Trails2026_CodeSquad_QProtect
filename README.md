@@ -2,7 +2,7 @@
 
 Guidewire DEVTrails 2026 | Phase 1 Submission
 
-## Video Demo: 
+## Video Demo: https://youtu.be/41HRcNUWYa0
 
 ## The Problem
 
@@ -60,7 +60,7 @@ The system runs a 5-stage algorithm:
 
 ## Architecture Diagram
 
-<img width="902" height="924" alt="image" src="https://github.com/user-attachments/assets/a1c8f0f2-7774-4218-9e65-88fa45d3bc67" />
+![Architecture diagram-1](https://github.com/user-attachments/assets/ad0fdc60-2d62-4f84-b873-aa8ac50ce7d6)
 
 ## Flow Diagram
 <img width="1091" height="923" alt="image" src="https://github.com/user-attachments/assets/2f709998-ecbf-4cae-af7b-28de01ec3201" />
