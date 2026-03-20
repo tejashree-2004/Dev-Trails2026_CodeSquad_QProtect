@@ -3,6 +3,7 @@
 
 Guidewire DEVTrails 2026 | Phase 1 Submission
 
+## Video Demo: 
 
 ## The Problem
 
@@ -60,8 +61,10 @@ The system runs a 5-stage algorithm:
 
 ## Architecture Diagram
 
-![Architecture Diagram](images/architecture.png)
+<img width="902" height="924" alt="image" src="https://github.com/user-attachments/assets/a1c8f0f2-7774-4218-9e65-88fa45d3bc67" />
 
+## Flow Diagram
+<img width="1091" height="923" alt="image" src="https://github.com/user-attachments/assets/2f709998-ecbf-4cae-af7b-28de01ec3201" />
 
 ## Core Design Principle: Multi-Signal Validation
 
@@ -196,14 +199,18 @@ remaining_capacity = weekly_target - earnings_so_far
 
 
 ### Coverage Screen
-![Coverage](images/coverage.png)
+![screen2_coverage](https://github.com/user-attachments/assets/66e65c7b-3226-4c87-b975-02a8e28ed248)
+
 
 ### Earnings Dashboard
-![Earnings](images/earnings.png)
+![screen3_earnings](https://github.com/user-attachments/assets/c2f82623-dc06-4d5a-b79d-f6c5be0c6423)
+
 
 ### Payout Screen
-![Payout](images/payout.png)
+![screen4_payouts](https://github.com/user-attachments/assets/3bf15f2f-aa03-46cb-a270-a32d6e5f5507)
 
+### Profile 
+![screen5_profile](https://github.com/user-attachments/assets/8f5ebdac-3f3f-47ea-9bcc-9ca41a685a0c)
 
 ## Weekly Premium Model
 
