@@ -63,7 +63,8 @@ The system runs a 5-stage algorithm:
 ![Architecture diagram-1](https://github.com/user-attachments/assets/ad0fdc60-2d62-4f84-b873-aa8ac50ce7d6)
 
 ## Flow Diagram
-<img width="1091" height="923" alt="image" src="https://github.com/user-attachments/assets/2f709998-ecbf-4cae-af7b-28de01ec3201" />
+![FlowChart_QProtect](https://github.com/user-attachments/assets/631c12d6-f0a2-4200-8295-46614621122d)
+
 
 ## Core Design Principle: Multi-Signal Validation
 
@@ -262,7 +263,13 @@ Advanced features + demo
 - Income-loss only  
 - Weekly premium model  
 - Parametric payouts  
-- AI-driven fraud detection  
+- AI-driven fraud detection
+
+## Team Members
+- Tejashree N    - https://github.com/tejashree-2004
+- Yohesh R       - https://github.com/Yohesh004
+- Dhatshayani N  - https://github.com/Dhatshayani05
+- B S Yutish Ram - https://github.com/yutish161
 
 
 <p align="center">
