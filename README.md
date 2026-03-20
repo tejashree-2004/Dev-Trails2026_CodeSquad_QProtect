@@ -271,7 +271,8 @@ Advanced features + demo
 - AI-driven fraud detection  
 
 
-## Final Statement
-
-QProtect: When signals align, your income is protected.
+<p align="center">
+  <b>QProtect</b><br/>
+  When signals align, your income is protected.
+</p>
 
