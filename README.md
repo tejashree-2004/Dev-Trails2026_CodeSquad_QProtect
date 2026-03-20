@@ -1,4 +1,3 @@
-# Dev-Trails2026_CodeSquad_QProtect
 # QProtect: AI-Powered Parametric Income Insurance for Q-Commerce Delivery Partners
 
 Guidewire DEVTrails 2026 | Phase 1 Submission
